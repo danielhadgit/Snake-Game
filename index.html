@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>SNAKE</h1>
+    <div class="game-container">
+        <canvas id="appCanvas" width="800" height="600"></canvas>
+        <button id="restartBtn" onclick="resetGame()">RESTART</button>
+    </div>
+    <div class="social-links">
+        <a href="https://www.linkedin.com/in/daniel-hadfield-09283028a/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href="https://github.com/danielhadgit" target="_blank" rel="noopener noreferrer">GitHub</a>
+    </div>
+    <div class="controls-panel">
+        <div class="size-control">
+            <label for="gridSizeSelect">Grid size</label>
+            <select id="gridSizeSelect">
+                <option value="small">Small</option>
+                <option value="medium" selected>Medium</option>
+                <option value="large">Large</option>
+            </select>
+        </div>
+        <div class="dark-toggle">
+            <button id="darkModeToggle" type="button">
+                <span id="darkModeIcon">🌙</span>
+                <span id="darkModeLabel">Night</span>
+            </button>
+        </div>
+    </div>
+    
+    <script src="scripts/javascript.js"></script>
+    <script>
+    </script>
+</body>
+</html>
